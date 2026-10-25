@@ -1,17 +1,3 @@
---==============================================================================
--- Deobfuscated Source: VexzHub UI Library (proxyLibUi.txt)
--- Protection: Clyde Protection v2 (2-Layer Obfuscation + Custom 47-Opcode VM)
--- Recovery Status:
---   * Outer Layer (Ascii85 + 23-byte Key XOR + 256-byte S-Box CBC): 100% Decoded
---   * Adler-32 Integrity Checksum (615784525): 100% Verified
---   * Inner Layer Control-Flow Flattening (aQ State Machine, 43 live / 12 dead): 100% Traced
---   * 5-Stage Constant Cipher (ao -> ap -> aq -> ar -> as): 100% Decoded
---   * VM Devirtualization & Chunk Unshuffling (304/304 Prototypes, 23,468 Instructions): 100% Recovered
---   * Deep Bytecode & Logic Recovery (Nil-Check Folding, AutoSave Aliasing,
---     Marquee Scroll Upvalue Lifetimes, Constant-LHS Comparisons, UTF-8): 100% Verified
---   * Unresolved / Fabricated / Dropped Sections: 0
---==============================================================================
-
 local VexzHub = {}
 VexzHub.__index = VexzHub
 local TweenService = game:GetService("TweenService")
